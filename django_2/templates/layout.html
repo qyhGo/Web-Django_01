@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    {% block css %}
+    {% endblock %}
+</head>
+<body>
+    <div class="header">
+        <div class="logo left">历史档案馆</div>
+        <div class="avter right">
+            <img src="/static/image/avter.jpg">
+            <div class="user">
+                <a>个人资料</a></br>
+                <a>退出</a></br>
+                <a>注销</a>
+            </div>
+        </div>
+        <div class="fmenus right">
+            <a><i class="fa fa-envelope" aria-hidden="true"></i>邮件</a>
+            <a><i class="fa fa-commenting" aria-hidden="true"></i>消息</a>
+        </div>
+    </div>
+    <div body>
+        <div class="menus">
+            <a href="/student/">学生管理</a>
+            <a href="/teacher/">教师管理</a>
+            <a href="/class/">班级管理</a>
+        </div>
+        <div class="container">
+            {% block xx %}
+            {% endblock %}
+        </div>
+    </div>
+    {% block js %}
+    {% endblock %}
+</body>
+</html>

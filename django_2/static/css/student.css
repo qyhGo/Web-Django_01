@@ -1,0 +1,87 @@
+.hide {
+    display: none;
+}
+.add_shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 999;
+}
+.add_modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 10px;
+}
+.p1 {
+    padding-left: 30px;
+}
+.p2 {
+    padding-left: 30px;
+}
+#butid {
+    margin-left: 100px;
+}
+#cancleadd {
+    margin-left: 10px;
+}
+.edit_shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 999;
+}
+.edit_modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 10px;
+}
+#editbut {
+    margin-left: 100px;
+}
+#cancleedit{
+    margin-left: 10px;
+}
+.del_modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 200px;
+    margin-left: -150px;
+    margin-top: -100px;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 10px;
+}
+#delbut {
+    margin-left: 100px;
+}
+#cancledel {
+    margin-left: 10px;
+}
+.ph5 {
+    text-align: center;
+    color: #ff3128;
+}

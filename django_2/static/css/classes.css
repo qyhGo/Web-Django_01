@@ -1,0 +1,118 @@
+.hide {
+    display: none;
+}
+.shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 999;
+}
+.delmodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin-left: -150px;
+    margin-top: -100px;
+    opacity: 0.8;
+    border-width: medium;
+    border-radius: 10px;
+    z-index: 1000;
+}
+.addCmodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin-left: -150px;
+    margin-top: -100px;
+    opacity: 0.8;
+    border-width: medium;
+    border-radius: 10px;
+    z-index: 1000;
+}
+.form {
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.sub {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#errormsg{
+    color: chartreuse;
+    padding-left: 10%;
+}
+#editerror{
+    color: chartreuse;
+    padding-left: 10%;
+}
+.edit_shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 999;
+}
+.edit_modal {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin-left: -200px;
+    margin-top: -150px;
+    opacity: 0.8;
+    border-color: #ff3128;
+    border-width: medium;
+    border-radius: 10px;
+}
+.h5 {
+    padding-left: 25%;
+}
+.addT_modal {
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin-left: -200px;
+    margin-top: -150px;
+    opacity: 0.8;
+    border-color: #ff3128;
+    border-width: medium;
+    border-radius: 10px;
+}
+.loading {
+    opacity: 0.8;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 197px;
+    width: 198px;
+    margin-left: -99px;
+    margin-top: -99px;
+    background-color: white;
+    background-image: url("/static/image/loading1.gif");
+}
+.addTp1 {
+    padding-left: 20px;
+}
+.addTp2 {
+    padding-left: 20px;
+}
